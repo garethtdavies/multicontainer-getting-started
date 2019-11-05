@@ -1,1 +1,1 @@
-console.log('Hello failing contract!');
+console.log('Hello optional contract!');
