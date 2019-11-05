@@ -1,0 +1,6 @@
+type: 'sw.container'
+slug: 'first-contract'
+name: 'first-contract'
+requires:
+  - type: 'sw.os'
+    version: '>=2.24.0'
