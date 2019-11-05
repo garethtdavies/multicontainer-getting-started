@@ -2,14 +2,10 @@ version: '2'
 services:
   frontend:
     build: ./frontend
-    labels:
-      io.balena.features.optional: '1'
     expose:
       - "80"
   proxy:
     build: ./haproxy
-    labels:
-      io.balena.features.optional: '1'
     depends_on:
       - frontend
       - data
@@ -17,9 +13,9 @@ services:
       - "80:80"
   data:
     build: ./data
-    labels:
-      io.balena.features.optional: '1'
     expose:
       - "8080"
   contract:
+    labels:
+      - io.balena.features.optional=1
     build: ./contract

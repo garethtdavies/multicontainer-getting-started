@@ -3,4 +3,4 @@ slug: 'first-contract'
 name: 'first-contract'
 requires:
   - type: 'sw.os'
-    version: '>=2.44.0'
+    version: '>=2.40.0'
