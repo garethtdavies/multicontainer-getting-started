@@ -1,1 +1,1 @@
-console.log('Hello contracts, if you see this message then this container was deployed');
+console.log('sw.l4t testing');

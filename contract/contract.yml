@@ -1,8 +1,6 @@
 type: 'sw.container'
 slug: 'first-contract'
-name: 'first-contract'
+name: 'Can i have spaces'
 requires:
-  - type: 'sw.os'
-    version: '>=2.42'
-  - type: 'sw.supervisor'
-    version: '>=10'
+  - type: 'sw.l4t'
+    version: '28.2'
